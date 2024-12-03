@@ -1,0 +1,93 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Poppins Font*/
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Thin.ttf');
+  font-family: Poppins;
+  font-weight: 100;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-ExtraLight.ttf');
+  font-family: Poppins;
+  font-weight: 200;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Light.ttf');
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Regular.ttf');
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Medium.ttf');
+  font-family: Poppins;
+  font-weight: 500;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-SemiBold.ttf');
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Bold.ttf');
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-ExtraBold.ttf');
+  font-family: Poppins;
+  font-weight: 800;
+}
+
+
+@font-face {
+  src: url('/fonts/Poppins/Poppins-Black.ttf');
+  font-family: Poppins;
+  font-weight: 900;
+}
+
+
+
+
+@font-face {
+  src: url('/fonts/PTSans-Regular.ttf');
+  font-family: PTSans;
+}
+
+@font-face {
+  src: url('/fonts/Ultra-Regular.ttf');
+  font-family: Ultra;
+}
+
+@font-face {
+  src: url('/fonts/Oswald-Medium.ttf');
+  font-family: Oswald;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app {
+  color: rgb(48, 48, 48);
+  background-color: rgb(245, 245, 230);
+  font-family: Poppins;
+  --primary: rgb(52, 52, 52);
+  --secondary: rgb(240, 240, 240) ;
+  --text: white;
+}
