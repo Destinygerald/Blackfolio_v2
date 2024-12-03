@@ -47,7 +47,7 @@
 	}
 
 	.main-services-top > span:last-child, .main-cases-hdr > div:last-child, .advantages-hdr > span:last-child {
-		max-width: 120px;
+		max-width: 148px;
 		font-size: .56rem;
 	}
 
@@ -120,6 +120,10 @@
 
 	.main-cases-card-name-big > span {
 		font-size: 3.2rem;
+	}
+
+	.main-cases-card-info {
+		font-size: .52rem;
 	}
 
 	.advantages-cnt {

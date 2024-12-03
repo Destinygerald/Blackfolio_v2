@@ -114,3 +114,18 @@
 	font-weight: 600;
 	font-size: 3.8rem;
 }
+
+
+@media (max-width: 600px) {
+	.page-loader-text {
+		font-size: 1.6rem;
+		font-weight: 700;
+	}	
+
+	.page-loader-img > img {
+		width: auto;
+		left: -80%;
+		position: relative;
+		height: 100%;
+	}
+}
