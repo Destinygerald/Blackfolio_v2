@@ -75,7 +75,7 @@ export function PageServices () {
 			<div className='main-services-top'>
 				<span>What BlackFolio Can <br />  Do For You</span>
 
-				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet.</span>
+				<span>We offer technological design services with consideration of our clients need. Our approach is centered around empathy, creativity and collaboration.</span>
 			</div>
 
 			<div className='main-services-cnt'>

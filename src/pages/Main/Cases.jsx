@@ -81,7 +81,7 @@ export function Cases () {
 			<div className='main-cases-hdr'>
 				<div>Cases We Have <br /> Worked On</div>
 
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet.</div>
+				<div>We work closely with our clients to uncover insights, challange assumptions, and push the boundaries of what's possible.</div>
 			</div>
 
 			<div className='main-cases-cnt'>

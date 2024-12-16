@@ -17,7 +17,7 @@ export function PageBanner () {
 		<div className='main-banner'>
 			<div className='main-banner-top'>
 				<span>BlackFolio: Your  Design<br /> Studio of Choice</span>
-				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet</span>
+				<span>We are a creative design studio passionate about crafting innovative solutions that elevate brands and inspire audiences.</span>
 			</div>
 
 			<div className='main-banner-btm'>

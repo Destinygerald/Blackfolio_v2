@@ -10,19 +10,19 @@ const AdvantagesCardInfo = [
 		icon: <LuTarget />,
 		title: 'Accuracy and Consistency',
 		little_content: 'We Provide Accurate designs that suits each clients demand with no stones left unturned.',
-		content: ''
+		content: " We pride ourselves on our atention to detail and commitment to delivering high-quality solutions. Our team of expert ensures that every project is executed with precision and care, resulting in accurate and consistent results. "
 	},
 	{
 		icon: <FaMoneyBill />,
 		title: 'Cost Saving',
 		little_content: 'Get Satisfactory designs at reasonable and negotiatable prices. We consider every clients budget.',
-		content: ''
+		content: "We understand that every business has a budget to work with. That's why we offer cost-effective solutions that deliver exceptional value without breaking the bank. Our efficient processes and expertise enables us to complete projects on time and within budget, saving our clients' money and resources."
 	},
 	{
 		icon: <IoColorPaletteSharp />,
 		title: 'Personalization',
 		little_content: 'Our creatives work alongside clients request, considering each and every of a client\'s idea. ',
-		content: ''
+		content: "We believe that every business is unique, and that's why we offer personlized solution tailored to our clients' specific needs. Our team takes the time to understand our clients' goals, target audience and brand identity, ensuring that every solution we deliver is customized to meet their individual requirements."
 	}
 ]
 
@@ -45,7 +45,7 @@ function AdvantagesCard ({ icon, title, little_content, content }) {
 				<span>{title}</span>
 				<span>{little_content}</span>
 			</div>
-			<div className='advantages-cnt-card-back'>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet.</div>
+			<div className='advantages-cnt-card-back'>{content}</div>
 		</div>
 	)
 }
@@ -57,7 +57,7 @@ export function Advantages () {
 			<div className='advantages-hdr'>
 				<span>What BlackFolio Can <br />  Do For You</span>
 
-				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec consectetur semper nunc in molestie. Vorem ipsum dolor sit amet.</span>
+				<span>We are dedicated to delivering exceptional results that exceed our client's expectations.</span>
 			</div>
 
 			<div className='advantages-cnt'>
