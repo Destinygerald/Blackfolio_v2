@@ -53,7 +53,7 @@ function AdvantagesCard ({ icon, title, little_content, content }) {
 export function Advantages () {
 
 	return (
-		<div className='advantages'>
+		<div className='advantages' id='advantages'>
 			<div className='advantages-hdr'>
 				<span>What BlackFolio Can <br />  Do For You</span>
 

@@ -71,7 +71,7 @@ export function PageServices () {
 	}
 
 	return (
-		<div className='main-services'>
+		<div className='main-services' id='services'>
 			<div className='main-services-top'>
 				<span>What BlackFolio Can <br />  Do For You</span>
 

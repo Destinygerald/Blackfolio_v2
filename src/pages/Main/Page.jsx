@@ -18,9 +18,9 @@ function MainNav () {
 
 			<div className='nav-items'>
 				<span>About</span>
-				<span>Services</span>
-				<span>Cases</span>
-				<span>Advantages</span>
+				<a href='#services'> <span>Services</span> </a>
+				<a href='#cases'> <span>Cases</span> </a>
+				<a href='#advantages'> <span>Advantages</span> </a>
 			</div>
 
 			<div className='nav-btn'>

@@ -77,7 +77,7 @@ export function Cases () {
 	const [ selected, setSelected ] = useState(null);
 
 	return (
-		<div className='main-cases'>
+		<div className='main-cases' id='cases'>
 			<div className='main-cases-hdr'>
 				<div>Cases We Have <br /> Worked On</div>
 

@@ -31,8 +31,10 @@
 	font-size: .6rem;
 }
 
-.nav-items > span {
+.nav-items > a {
 	cursor: pointer;
+	color: white;
+	text-decoration: none;
 }
 
 .nav-btn > button {
